@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joaquin</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <button id="nav-toggle" class="mobile-nav-toggle">Menu</button>
+        <nav id="nav" class="mobile-nav">
+            <ul>
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./about.html">About</a></li>
+              <li><a href="./projects.html">Projects</a></li>
+              <li><a href="./skills.html">Skills</a></li>
+              <li><a href="./experience.html">Work Experience</a></li>
+              <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </nav>
+    </header>
+
+    <section id="about" class="section">
+      <div class="about">
+      </div>
+        <h1>About me</h1>
+        <p>"Hello, I'm Joaquin Olmos, a dedicated web designer and full-stack developer on a mission to transform digital ideas into captivating realities. With a creative eye and a passion for clean, efficient code, I thrive in the realm of HTML, CSS, and JavaScript. Whether I'm meticulously crafting the perfect user interface or diving into the complexities of back-end development, I'm driven by the pursuit of seamless, elegant web experiences. My commitment to staying current with the latest technologies and design trends ensures that I'm always ready to tackle new challenges. Let's collaborate to bring your vision to life, one pixel and line of code at a time."</p>
+    </section>
+
+    
+
+    <script>
+        const navToggle = document.getElementById('nav-toggle');
+        const nav = document.getElementById('nav');
+
+        navToggle.addEventListener('click', () => {
+            nav.classList.toggle('mobile-nav');
+        });
+    </script>
+</body>
+</html>

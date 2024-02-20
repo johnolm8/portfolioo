@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <button id="nav-toggle" class="mobile-nav-toggle">Menu</button>
+        <nav id="nav" class="mobile-nav">
+            <ul>
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./about.html">About</a></li>
+              <li><a href="./projects.html">Projects</a></li>
+              <li><a href="./skills.html">Skills</a></li>
+              <li><a href="./experience.html">Work Experience</a></li>
+              <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </nav>
+    </header>
+
+    <section id="contact" class="section">
+        <h3>UI/UX DESIGNER AND FULL STACK DEVELOPER</h3>
+        <h1>Contact me</h1>
+        <br><br>
+        <a href="mailto:johnolm8@gmail.com">johnolm8@gmail.com</a>
+        <br><br>
+        <a href="tel:+16729688069">Telephone number: +1 (672) 9688069</a>
+        <br><br><br>
+    </section>
+
+    
+
+    <script>
+        const navToggle = document.getElementById('nav-toggle');
+        const nav = document.getElementById('nav');
+
+        navToggle.addEventListener('click', () => {
+            nav.classList.toggle('mobile-nav');
+        });
+    </script>
+</body>
+</html>

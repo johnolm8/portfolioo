@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <button id="nav-toggle" class="mobile-nav-toggle">Menu</button>
+        <nav id="nav" class="mobile-nav">
+            <ul>
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./about.html">About</a></li>
+              <li><a href="./projects.html">Projects</a></li>
+              <li><a href="./skills.html">Skills</a></li>
+              <li><a href="./experience.html">Work Experience</a></li>
+              <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="section">
+        <h1>Skills</h1>
+        <p>I possess a diverse set of skills as a web designer and full-stack developer. My expertise spans HTML, CSS, and JavaScript, enabling me to create stunning and functional websites. With a deep understanding of semantic HTML and responsive design, I ensure that the web experiences I craft are both visually appealing and accessible across various devices. Proficient in JavaScript, I excel at dynamic content creation, user interface enhancements, and efficient asynchronous programming. <br><br> My versatility extends to front-end and back-end development, utilizing frameworks like React and Node.js to build seamless, feature-rich web applications. I'm meticulous about web performance, employing optimization techniques, and adhering to security best practices. Moreover, my commitment to continuous learning keeps me updated with the ever-evolving world of web technologies, allowing me to tackle challenges with innovative solutions and deliver exceptional results.
+           </p>
+           <br>
+           <br>
+           <div class="skills">
+            <img src="./img/pic02.jpg" alt="Home">
+          </div>
+    </section>
+
+    
+
+    <script>
+        const navToggle = document.getElementById('nav-toggle');
+        const nav = document.getElementById('nav');
+
+        navToggle.addEventListener('click', () => {
+            nav.classList.toggle('mobile-nav');
+        });
+    </script>
+</body>
+</html>

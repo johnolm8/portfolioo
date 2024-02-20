@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joaquin</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <button id="nav-toggle" class="mobile-nav-toggle">Menu</button>
+        <nav id="nav" class="mobile-nav">
+            <ul>
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./about.html">About</a></li>
+              <li><a href="./projects.html">Projects</a></li>
+              <li><a href="./skills.html">Skills</a></li>
+              <li><a href="./experience.html">Work Experience</a></li>
+              <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </nav>
+    </header>
+
+    <section id="exp" class="section">
+      <div class="hero-image">
+        <img src="img/pic03.jpg" alt="exp">
+      </div>
+        <h1>Work Experience</h1>
+        <p>My journey in the world of web design and full-stack development has been a dynamic one. While my formal experience might be relatively limited, my boundless enthusiasm and energy for learning have been the driving forces behind my growth. I've always believed that the best way to excel in this ever-evolving field is to embrace challenges and approach each project as an opportunity to expand my skill set. Every project, whether it's designing a captivating website or building a robust web application, has been a chance for me to immerse myself in new technologies and problem-solving. With each line of code I write and each design I create, I'm fueled by an insatiable curiosity and an unwavering commitment to honing my craft. My limited experience isn't a limitation; it's a foundation upon which I'm building an exciting and promising career in web development.</p>
+    </section>
+
+    
+
+    <script>
+        const navToggle = document.getElementById('nav-toggle');
+        const nav = document.getElementById('nav');
+
+        navToggle.addEventListener('click', () => {
+            nav.classList.toggle('mobile-nav');
+        });
+    </script>
+</body>
+</html>

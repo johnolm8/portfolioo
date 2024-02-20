@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joaquin</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <button id="nav-toggle" class="mobile-nav-toggle">Menu</button>
+        <nav id="nav" class="mobile-nav">
+            <ul>
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./about.html">About</a></li>
+              <li><a href="./projects.html">Projects</a></li>
+              <li><a href="./skills.html">Skills</a></li>
+              <li><a href="./experience.html">Work Experience</a></li>
+              <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </nav>
+    </header>
+
+    <section id="projects" class="projects">
+        <h1>Projects</h1>
+        <p>Currently not available projects.</p>
+        <br><br>
+        <section id="projects" class="section">
+            <div class="project-grid">
+                <div class="project">
+                    <img src="./img/bg.jpg" alt="Project 1">
+                    <h3>Project 1</h3>
+                    <p>Description of Project 1.</p>
+                </div>
+                <div class="project">
+                    <img src="./img/bg.jpg" alt="Project 2">
+                    <h3>Project 2</h3>
+                    <p>Description of Project 2.</p>
+                </div>
+                <div class="project">
+                    <img src="./img/bg.jpg" alt="Project 3">
+                    <h3>Project 3</h3>
+                    <p>Description of Project 3.</p>
+                </div>
+                <div class="project">
+                    <img src="./img/bg.jpg" alt="Project 4">
+                    <h3>Project 4</h3>
+                    <p>Description of Project 4.</p>
+                </div>
+                <div class="project">
+                    <img src="./img/bg.jpg" alt="Project 5">
+                    <h3>Project 5</h3>
+                    <p>Description of Project 5.</p>
+                </div>
+                <div class="project">
+                    <img src="./img/bg.jpg" alt="Project 6">
+                    <h3>Project 6</h3>
+                    <p>Description of Project 6.</p>
+                </div>
+            </div>
+        </section>
+    
+    </section>
+
+    
+
+    <script>
+        const navToggle = document.getElementById('nav-toggle');
+        const nav = document.getElementById('nav');
+
+        navToggle.addEventListener('click', () => {
+            nav.classList.toggle('mobile-nav');
+        });
+    </script>
+</body>
+</html>
